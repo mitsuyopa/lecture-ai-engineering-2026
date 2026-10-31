@@ -1,0 +1,13 @@
+timestamp,model,question_id,latency_seconds,prompt_tokens,output_tokens,total_tokens,status,error
+2026-10-21T05:26:20.320636+00:00,gemini-3.5-flash-lite,q1,2.918,7,603,610,ok,
+2026-10-21T05:26:49.346192+00:00,gemini-3.5-flash-lite,q2,19.025,13,914,927,ok,
+2026-10-21T05:27:02.556819+00:00,gemini-3.5-flash-lite,q3,3.210,13,866,879,ok,
+2026-10-21T05:27:15.141086+00:00,gemini-3.5-flash-lite,q4,2.584,21,492,513,ok,
+2026-10-21T05:27:27.458731+00:00,gemini-3.5-flash-lite,q5,2.317,23,444,467,ok,
+2026-10-21T05:27:43.493571+00:00,gemini-3.5-flash-lite,q6,6.035,17,115,132,ok,
+2026-10-21T05:28:03.975320+00:00,gemini-3.5-flash,q1,10.481,,,,error,"ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+2026-10-21T05:28:21.308761+00:00,gemini-3.5-flash,q2,7.333,,,,error,"ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+2026-10-21T05:28:45.569680+00:00,gemini-3.5-flash,q3,14.261,13,881,2280,ok,
+2026-10-21T05:29:08.130485+00:00,gemini-3.5-flash,q4,12.561,21,753,1861,ok,
+2026-10-21T05:29:27.264780+00:00,gemini-3.5-flash,q5,9.134,,,,error,"ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+2026-10-21T05:29:45.919416+00:00,gemini-3.5-flash,q6,8.654,,,,error,"ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
